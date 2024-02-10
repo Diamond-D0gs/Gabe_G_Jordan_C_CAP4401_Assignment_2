@@ -10,6 +10,7 @@ function [BW,maskedRGBImage] = CreateMaskImg(RGB, colorSpace, channel1, channel2
 %------------------------------------------------------
 
 % Convert RGB image to chosen color space
+% This part was added by us.
     switch colorSpace
         case 'RGB'
             I = RGB;
